@@ -2,13 +2,13 @@ body{
     margin: 0;
 }
 .header{
-    background-image: linear-gradient(black,blue);
+    background-image: linear-gradient(to left bottom,black,blue);
     width: 100%;
     height: 100px;
 
 }
 .left{
-    background-image: linear-gradient(black,blue);
+    background-image: linear-gradient(to right top,black,blue);
     width: 18%;
     height: 621px;
     float: left;
@@ -17,11 +17,11 @@ body{
     float: left;
     height: 621px;
     width: 82%;
-    background-image: linear-gradient(to left top,black,blue);
+    background-image: linear-gradient(to right bottom,black,blue);
     color: rgb(255, 255, 255);
 }
 .footer{
-    background-image: linear-gradient(to right,black,blue);
+    background-image: linear-gradient(to left top,black,blue);
     float: left;
     height: 100px;
     width: 100%;
@@ -39,7 +39,7 @@ body{
     margin-left: 43px;
     padding: 12px;
     width: 83px;
-    text-decoration: none;
+    outline: none;
 }
 .btn-1:hover{
     background-image: linear-gradient(blue,black)
@@ -47,4 +47,7 @@ body{
 
 .btn-1:active{
     background-image: linear-gradient(black,blue)
+}
+.btn-1::-moz-focus-inner{
+    outline: none;
 }
