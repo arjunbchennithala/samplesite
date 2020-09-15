@@ -48,6 +48,4 @@ body{
 .btn-1:active{
     background-image: linear-gradient(black,blue)
 }
-.btn-1::-moz-focus-inner{
-    outline: none;
-}
+
