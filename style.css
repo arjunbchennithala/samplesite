@@ -5,7 +5,7 @@ body{
     background-image: linear-gradient(to left bottom,black,blue);
     width: 100%;
     height: 100px;
-
+    float: right;
 }
 .left{
     background-image: linear-gradient(to right top,black,blue);
@@ -23,13 +23,16 @@ body{
 .footer{
     background-image: linear-gradient(to left top,black,blue);
     float: left;
-    height: 100px;
+    height: 125px;
     width: 100%;
+    color: white;
 }
 
 .login-signup{
-    padding-left: 12px;
-    padding-top: 29px;
+    padding-right: 12px;
+    padding-top: 18px;
+    float: right;
+    margin-top: -85px;
 }
 .btn-1{
     border-width: 1px;
@@ -48,4 +51,39 @@ body{
 .btn-1:active{
     background-image: linear-gradient(black,blue)
 }
-
+.logo{
+    float: left;
+    margin-left: 40%;
+}
+.contact{
+    float: right;
+    margin-right: 10px;
+}
+.nav{
+    margin-left: 585px;
+    padding-top: 56px;
+    margin-top: -94px;
+    width: 350px;
+}
+.btn-2{
+    transition: all 0.5s;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: -5px;
+    padding: 11px;
+    width: 86px;
+}
+.btn-2:hover{
+    transition: 0.5s;
+    background-image: linear-gradient(to bottom,#0000aa,#000066);
+}
+.btn-2:active{
+    background-image: linear-gradient(to bottom,#000066,#0000aa);
+}
+.image{
+    margin-left: 39px;
+    margin-top: 6px;
+}
