@@ -35,19 +35,18 @@ body{
     margin-top: -85px;
 }
 .btn-1{
-    border-width: 1px;
-    border-radius: 35%;
+    transition-duration: 0.1s;
+    border-radius: 33px;
+    border-color: rebeccapurple;
     background-image: linear-gradient(to right top,black,blue);
     color: white;
     margin-left: 43px;
     padding: 12px;
     width: 83px;
-    outline: none;
 }
 .btn-1:hover{
-    background-image: linear-gradient(blue,black)
+    background-image: linear-gradient(blue,black);
 }
-
 .btn-1:active{
     background-image: linear-gradient(black,blue)
 }
@@ -56,8 +55,9 @@ body{
     margin-left: 40%;
 }
 .contact{
-    float: right;
-    margin-right: 10px;
+    float: left;
+    margin-left: 35%;
+    margin-top: -1%;
 }
 .nav{
     margin-left: 585px;
@@ -66,10 +66,9 @@ body{
     width: 350px;
 }
 .btn-2{
-    transition: all 0.5s;
     background-color: transparent;
     border: none;
-    color: black;
+    color:lightcyan;
     font-weight: bold;
     font-size: 18px;
     margin-left: -5px;
@@ -77,7 +76,6 @@ body{
     width: 86px;
 }
 .btn-2:hover{
-    transition: 0.5s;
     background-image: linear-gradient(to bottom,#0000aa,#000066);
 }
 .btn-2:active{
@@ -86,4 +84,41 @@ body{
 .image{
     margin-left: 39px;
     margin-top: 6px;
+}
+.nav-2{
+    padding: 12px;
+    padding-left: 1px;
+    margin-top: -8%;
+    padding-top: 1px;
+}
+.btn-3{
+    transition-duration: 0.1s;
+    margin-top: 19%;
+    margin-left: 11%;
+    background-color: transparent;
+    border-radius: 33px;
+    width: 171px;
+    height: 53px;
+    color: white;
+    border-color: rebeccapurple;
+}
+.btn-3:hover{
+    transition-duration: 0.2s;
+    width: 190px;
+    height: 70px;
+}
+.btn-3:active{
+    background-color: #000066;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+button{
+    cursor: pointer;
+}
+.name{
+    margin-left: 30%;
+}
+.number{
+    color: gold;
 }
